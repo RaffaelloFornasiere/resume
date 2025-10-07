@@ -1,0 +1,147 @@
+\documentclass[a4paper,9pt]{article}
+\usepackage[left=0.4in, right=0.4in, top=0.4in, bottom=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{amssymb}
+% Define a reusable section template
+\newcommand{\cvsection}[2]{
+    \vspace{0.3cm} % Add spacing before each section
+    \noindent {\large \textbf{#1}} % Section Title
+    \begin{itemize}
+        \renewcommand{\labelitemi}{}
+        \small #2 % Bullet Points
+    \end{itemize}
+}
+\usepackage{enumitem}
+\setlist[itemize,1]{left=-10pt} % Remove extra indentation for first-level items
+\setlist[itemize,2]{left=0.8em} % Slightly indent second-level items
+\setlist[itemize]{left=0pt, topsep=5pt, itemsep=2pt, parsep=0pt}
+
+
+
+\begin{document}
+
+% Header
+\noindent{\LARGE \textbf{Raffaello Fornasiere}}
+
+\vspace{0.2cm}
+\noindent
+\begin{minipage}{\linewidth}
+    \begin{center}
+        Email: \href{mailto:fornasiere.raffaello@gmail.com}{fornasiere.raffaello@gmail.com} \hfill
+        Linkedin: \href{https://linkedin.com/in/raffaello-fornasiere}{raffaello-fornasiere} \hfill
+        Website: \href{https://rf-98.com}{rf-98.com}\hfill
+        Github: \href{https://github.com/RaffaelloFornasiere}{RaffaelloFornasiere}\hfill
+    \end{center}
+\end{minipage}
+
+\cvsection{Summary}{
+    \item I am a software engineer with practical experience in LLM integration and AI agent development. I have built AI-powered applications in healthcare and research contexts, working across the full stack. My background combines AI/ML knowledge with hands-on development skills to deliver production-ready solutions.
+}
+
+\cvsection{Professional Experience}{
+    \item \textbf{AI Agent Developer}, Freelance for William Saunders, Alignment Science Researcher at Anthropic (May 2025 - Present)
+    \begin{itemize}
+        \item Building a proactive personal assistant that can autonomously initiate conversations and manage tasks.
+        \item Implementing tool integrations (e.g. Google APIs), plus custom note-taking systems.
+        \item Tech stack: FastAPI, React, Claude API, RAG, event-driven architecture, and various third-party APIs.
+    \end{itemize}
+    \item \textbf{Lead Software Engineer - Front-End}, Infiniteloop (October 2022 - Present)
+    \begin{itemize}
+        \item Prototyped AI healthcare applications using LLMs, exploring feasibility for medical report automation (related to my thesis work).
+        \item Designed, built and maintained user interfaces using Angular, ensuring seamless integration with JHipster framework.
+        \item Developed reusable JHipster framework extensions (e.g. an extended JHipster Criteria API, a custom Spring Data JPA repository for bidirectional relationship synchronization).
+        \item Lead the development of different products. 
+        \item Mentored two junior developers and promoted best practices to improve code quality.
+    \end{itemize}
+    \item \textbf{Junior Full Stack Developer}, Prodigys Group (July 2021 - September 2022)
+    \begin{itemize}
+        \item Developed and maintained both front-end and back-end components using Angular, Spring Boot, and Django.
+        \item Optimized database performance through SQL query refactors, reducing execution times from hours to minutes.
+    \end{itemize}
+}
+
+\cvsection{Education}{
+    \item \textbf{Master's in Computer Science and Engineering}, Politecnico di Milano (Graduated July 2024)
+    \begin{itemize}
+        \item Thesis: Exploring the Potential of Lightweight LLMs for Medication and Timeline Extraction.
+        \item Developed a web application integrating LLMs for medical information extraction, \textbf{tested in three Italian hospitals}.
+        \item Published research: ``Medical Information Extraction with Large Language Models'' (ACL 2024).
+    \end{itemize}
+    \item \textbf{Bachelor's in Electronics Engineering}, Università degli Studi di Udine (Graduated July 2020)
+    \begin{itemize}
+        \item Thesis: Optimization of Digital Circuit Propagation Times Using Genetic Algorithms.
+    \end{itemize}
+}
+
+\cvsection{Technical Skills}{
+    \item \textbf{AI/ML \& LLM Integration:}
+    \begin{itemize}
+        \item Production experience with LLM APIs (OpenAI, Anthropic Claude), and prompt engineering.
+        \item Experience with local/lightweight models (with llamacpp) for privacy-sensitive applications.
+        \item Agent development: Autonomous systems, tool integrations, streaming responses and conversational interfaces.
+        \item NLP: Text extraction, information retrieval, medical language processing.
+        \item Libraries: LangChain, llamacpp, Hugging Face Transformers, TensorFlow.
+        \item Academic background in neural networks (CNNs, RNNs, transformers), optimization methods.
+    \end{itemize}
+    \item \textbf{Languages:}
+    \begin{itemize}
+        \item Primary: TypeScript/JavaScript, Python, Java.
+        \item Also experienced with: C++, SQL.
+        \item Others: CSS, HTML. 
+    \end{itemize}
+    \item \textbf{Frameworks, Libraries and Tools:}
+    \begin{itemize}
+        \item Back-end: FastAPI, Django, Spring Boot, JHipster.
+        \item Front-end: React, Vue.js, Angular.
+    \item Others: Docker, Git, Tailwind CSS, Streamlit, Spring Data JPA, Postgres/PostgreSQL, SQLite.
+    \end{itemize}
+}
+
+
+\cvsection{Publications}{
+    \item \textbf{Medical Information Extraction with Large Language Models} \\
+    \textit{Published at ICNLSP-2024, ACL Anthology (A* ranked by CORE, ~20-25\% acceptance rate)} \\
+    \url{https://aclanthology.org/2024.icnlsp-1.47/}
+    \begin{itemize}
+        \item Authors: \textbf{Raffaello Fornasiere}, Nicolò Brunello, Vincenzo Scotti, Mark Carman.
+    \end{itemize}
+}
+\pagebreak
+
+
+\cvsection{Academic Projects}{
+    \item \textbf{Medical Image-Caption Matching with Transformers}
+    \begin{itemize}
+       \item Reimplemented CLIP model from scratch for medical radiology applications using ResNet vision encoder and custom transformer text encoder.
+       \item Trained and fine-tuned both models using contrastive learning, pre-trained BERT integration, caption preprocessing, and medical concept augmentation techniques.
+       \item Developed evaluation methods for assessing image-caption alignment in medical domain.
+    \end{itemize}
+    \item \textbf{Online Learning for Dynamic Pricing in E-commerce}
+    \begin{itemize}
+        \item Exploration work implementing multi-armed bandit algorithms (GP-TS, GP-UCB) with social influence modeling to optimize advertising budget allocation across product campaigns.
+    \end{itemize}
+    \item \textbf{Deep Learning Projects with CNNs}
+    \begin{itemize}
+        \item \textbf{Species Classification:} Implemented transfer learning with VGG16/19 and EfficientNet models, applying data augmentation techniques (CutMix, MixUp) and ensemble methods to achieve 86.91\% accuracy on image classification tasks.
+        
+        \item \textbf{Time Series Classification:} Developed CNN-LSTM hybrid architectures for sequential data analysis, experimenting with preprocessing techniques including normalization and noise augmentation to reach 70\% classification accuracy.
+    \end{itemize}
+}
+
+\cvsection{Other Experiences}{
+    \item \textbf{ML4Good AI Safety Bootcamp}
+    \begin{itemize}
+        \item Completed EPFL's iteration of the \href{https://www.ml4good.org/}{ML4Good} AI Safety and ML Bootcamp (February 2023).
+    \end{itemize}
+}
+
+\cvsection{Community Involvement}{
+    \item \textbf{Volunteer developer for hometown community}
+    \begin{itemize}
+        \item Built website to publish local competition status with real-time updates through Telegram bot.
+        \item Developed web application to emulate Italian TV game show, managing multiplayer gameplay across mobile devices.
+    \end{itemize}
+}
+
+\end{document}
+
