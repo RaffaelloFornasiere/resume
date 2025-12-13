@@ -21,14 +21,22 @@ deliver production-ready solutions.
 
 # Professional Experience
 
+**ARENA 7.0 Mentee**, ARENA (January 2026 – February 2026, upcoming)
+
+- Selected participant in a 5-week full-time bootcamp focused on ML
+  engineering for technical AI safety.
+
+- Curriculum covering transformers, reinforcement learning, mechanistic
+  interpretability, and safety evaluations.
+
 **AI Agent Developer**, Freelance for William Saunders, Alignment
 Science Researcher at Anthropic (May 2025 - Present)
 
-- Building a proactive personal assistant that can autonomously initiate
-  conversations and manage tasks.
+- Building an AI conversational assistant, with manageable memory and
+  personalizable with many tools and external services.
 
-- Implementing tool integrations (e.g. Google APIs), plus custom
-  note-taking systems.
+- The agent has a web interface with chat, text-to-speech and
+  speech-to-speech interfaces.
 
 - Tech stack: FastAPI, React, Claude API, RAG, event-driven
   architecture, and various third-party APIs.
