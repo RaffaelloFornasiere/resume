@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add out/main.pdf
+          git add -f out/main.pdf
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto-compile LaTeX resume [skip ci]"
           git push
