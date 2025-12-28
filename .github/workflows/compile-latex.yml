@@ -1,0 +1,32 @@
+name: Compile LaTeX Resume
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'main.tex'
+      - '.github/workflows/compile-latex.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          args: -pdf -output-directory=out
+
+      - name: Commit PDF
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add out/main.pdf
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-compile LaTeX resume [skip ci]"
+          git push
