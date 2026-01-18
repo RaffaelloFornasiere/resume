@@ -17,9 +17,17 @@ I am a software engineer with practical experience in LLM integration
 and AI agent development. I have built AI-powered applications in
 healthcare and research contexts, working across the full stack. My
 background combines AI/ML knowledge with hands-on development skills to
-deliver production-ready solutions.
+deliver production-ready solutions. I recently have been accepted at
+LASR Labs and ARENA to transition into technical AI safety work.
 
 # Professional Experience
+
+**LASR Labs Mentee**, LASR Labs (January 2026 – April 2026, upcoming)
+
+- Selected for a 13-week AI safety research program in London.
+
+- Working in small teams with supervisors to produce academic-style
+  research on AI safety topics.
 
 **ARENA 7.0 Mentee**, ARENA (January 2026 – February 2026, upcoming)
 
@@ -28,6 +36,8 @@ deliver production-ready solutions.
 
 - Curriculum covering transformers, reinforcement learning, mechanistic
   interpretability, and safety evaluations.
+
+- Awarded top project in ARENA’s interpretability hackathon.
 
 **AI Agent Developer**, Freelance for William Saunders, Alignment
 Science Researcher at Anthropic (May 2025 - Present)
