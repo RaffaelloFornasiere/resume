@@ -37,7 +37,7 @@ LASR Labs and ARENA to transition into technical AI safety work.
 - Curriculum covering transformers, reinforcement learning, mechanistic
   interpretability, and safety evaluations.
 
-- Awarded top project in ARENA’s interpretability hackathon.
+- Awarded 1st prize at ARENA’s interpretability hackathon.
 
 **AI Agent Developer**, Freelance for William Saunders, Alignment
 Science Researcher at Anthropic (May 2025 - Present)
