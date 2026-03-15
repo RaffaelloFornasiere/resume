@@ -13,23 +13,23 @@ Website: [rf-98.com](https://rf-98.com) Github:
 
 # Summary
 
-I am a software engineer with practical experience in LLM integration
-and AI agent development. I have built AI-powered applications in
-healthcare and research contexts, working across the full stack. My
-background combines AI/ML knowledge with hands-on development skills to
-deliver production-ready solutions. I recently have been accepted at
-LASR Labs and ARENA to transition into technical AI safety work.
+I am an ML research engineer focused on AI safety and interpretability.
+I am currently at LASR Labs, building safety-relevant model organisms
+and evaluating auditing methods. I have previously built an AI assistant
+with long-term memory and tool integrations for an Anthropic researcher,
+and served as lead software engineer at an Italian startup.
 
 # Professional Experience
 
-**LASR Labs Mentee**, LASR Labs (January 2026 – April 2026, upcoming)
+**LASR Labs Mentee**, LASR Labs (January 2026 – Present)
 
 - Selected for a 13-week AI safety research program in London.
 
-- Working in small teams with supervisors to produce academic-style
-  research on AI safety topics.
+- Working in a team mentored by **Stefan Heimersheim** to build more
+  realistic safety-relevant model organisms and evaluate whether current
+  auditing/interpretability methods still work.
 
-**ARENA 7.0 Mentee**, ARENA (January 2026 – February 2026, upcoming)
+**ARENA 7.0 Mentee**, ARENA (January 2026 – February 2026)
 
 - Selected participant in a 5-week full-time bootcamp focused on ML
   engineering for technical AI safety.
@@ -40,19 +40,20 @@ LASR Labs and ARENA to transition into technical AI safety work.
 - Awarded 1st prize at ARENA’s interpretability hackathon.
 
 **AI Agent Developer**, Freelance for William Saunders, Alignment
-Science Researcher at Anthropic (May 2025 - Present)
+Science Researcher at Anthropic (May 2025 - December 2025)
 
-- Building an AI conversational assistant, with manageable memory and
-  personalizable with many tools and external services.
+- Built an AI assistant that maintains coherent context over months of
+  use, avoiding the repetitive patterns typical of commercial
+  assistants.
 
-- The agent has a web interface with chat, text-to-speech and
-  speech-to-speech interfaces.
+- Integrated tool add-ons including asynchronous browser use, Google
+  Calendar, and speech-to-speech interfaces.
 
 - Tech stack: FastAPI, React, Claude API, RAG, event-driven
-  architecture, and various third-party APIs.
+  architecture.
 
 **Lead Software Engineer - Front-End**, Infiniteloop (October 2022 -
-Present)
+August 2025)
 
 - Prototyped AI healthcare applications using LLMs, exploring
   feasibility for medical report automation (related to my thesis work).
@@ -60,7 +61,7 @@ Present)
 - Designed, built and maintained user interfaces using Angular, ensuring
   seamless integration with JHipster framework.
 
-- Developed reusable JHipster framework extensions (e.g. an extended
+- Developed reusable JHipster framework extensions (e.g., an extended
   JHipster Criteria API, a custom Spring Data JPA repository for
   bidirectional relationship synchronization).
 
@@ -73,7 +74,7 @@ Present)
 2022)
 
 - Developed and maintained both front-end and back-end components using
-  Angular, Spring Boot, and Django.
+  Angular, SpringBoot, and Django.
 
 - Optimized database performance through SQL query refactors, reducing
   execution times from hours to minutes.
@@ -100,24 +101,24 @@ Udine (Graduated July 2020)
 
 # Technical Skills
 
-**AI/ML & LLM Integration:**
+**ML Research & Engineering:**
 
-- Production experience with LLM APIs (OpenAI, Anthropic Claude), and
-  prompt engineering.
+- Model training and fine-tuning (SFT, DPO) up to 1B parameters, data
+  pipeline construction and filtering at scale.
 
-- Experience with local/lightweight models (with llamacpp) for
-  privacy-sensitive applications.
+- Linear probes and classifiers for mechanistic interpretability,
+  LLM-as-judge labelling pipelines.
 
-- Agent development: Autonomous systems, tool integrations, streaming
-  responses and conversational interfaces.
+- Transformer internals (TransformerLens, activation hooks), RL and
+  RLHF, safety evaluations and benchmarking.
 
-- NLP: Text extraction, information retrieval, medical language
-  processing.
+- Libraries: PyTorch, Hugging Face Transformers, TransformerLens,
+  llama.cpp.
 
-- Libraries: LangChain, llamacpp, Hugging Face Transformers, TensorFlow.
+**AI/LLM Integration:**
 
-- Academic background in neural networks (CNNs, RNNs, transformers),
-  optimization methods.
+- LLM APIs (OpenAI, Anthropic Claude), agent development, RAG, prompt
+  engineering, local models (llama.cpp).
 
 **Languages:**
 
