@@ -21,7 +21,18 @@ and served as lead software engineer at an Italian startup.
 
 # Professional Experience
 
-**LASR Labs Mentee**, LASR Labs (January 2026 – Present)
+**AI Safety Researcher**, Coefficient Giving Grant (April 2026 – August
+2026)
+
+- Our LASR Labs team was awarded a competitive Coefficient Giving grant
+  to extend the project for 4 additional months, continuing under the
+  mentorship of **Stefan Heimersheim**.
+
+- Investigating which training variations of model organisms cause
+  mechanistic interpretability methods to fail, to expose blind spots in
+  current auditing benchmarks.
+
+**LASR Labs Research Fellow**, LASR Labs (January 2026 – April 2026)
 
 - Selected for a 13-week AI safety research program in London.
 
@@ -181,6 +192,10 @@ acceptance rate)*
   augmentation to reach 70% classification accuracy.
 
 # Other Experiences
+
+**STAIR Mentor**, St Andrews Impact Research (Feb 2026 – Present)
+
+- Mentoring 2 early career students beginning AI safety research.
 
 **ML4Good AI Safety Bootcamp**
 
