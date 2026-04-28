@@ -21,12 +21,11 @@ and served as lead software engineer at an Italian startup.
 
 # Professional Experience
 
-**AI Safety Researcher**, Coefficient Giving Grant (April 2026 – August
-2026)
+**AI Safety Researcher** (April 2026 – August 2026)
 
-- Our LASR Labs team was awarded a competitive Coefficient Giving grant
-  to extend the project for 4 additional months, continuing under the
-  mentorship of **Stefan Heimersheim**.
+- Our LASR Labs team has recently awarded a grant to extend the project
+  for 4 additional months, continuing under the mentorship of **Stefan
+  Heimersheim**.
 
 - Investigating which training variations of model organisms cause
   mechanistic interpretability methods to fail, to expose blind spots in
