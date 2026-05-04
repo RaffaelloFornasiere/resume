@@ -23,13 +23,19 @@ and served as lead software engineer at an Italian startup.
 
 **AI Safety Researcher** (April 2026 – August 2026)
 
-- Our LASR Labs team has recently awarded a grant to extend the project
-  for 4 additional months, continuing under the mentorship of **Stefan
-  Heimersheim**.
+- My team at LASR Labs has been recently awarded a grant to extend the
+  project for 4 additional months, continuing under the mentorship of
+  **Stefan Heimersheim**.
 
 - Investigating which training variations of model organisms cause
   mechanistic interpretability methods to fail, to expose blind spots in
   current auditing benchmarks.
+
+**Technical AI Safety course facilitator**, BlueDot Impact (May 2026 –
+June 2026)
+
+- Part-time (7h/week) facilitating two cohorts through BlueDot Impact’s
+  Technical AI Safety course, leading weekly discussions on AI Safety.
 
 **LASR Labs Research Fellow**, LASR Labs (January 2026 – April 2026)
 
