@@ -1,3 +1,14 @@
 .idea
+.vscode/
+.DS_Store
 out/
 !out/main.pdf
+.claude
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
